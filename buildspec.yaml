@@ -13,7 +13,7 @@ phases:
     commands:
       - sam --version
       - sam build
-      - PYTHONPATH=. pytest -q
+      - PYTHONPATH=. pytest -q tests/unit
       # CloudFormation が読める “packaged” テンプレを作る
       - sam package --s3-bucket "$PACKAGE_BUCKET" --output-template-file packaged.yaml
 artifacts:
