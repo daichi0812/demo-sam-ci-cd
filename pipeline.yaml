@@ -7,7 +7,7 @@ Parameters:
     Default: demo-sam-cicd-pipeline  # パイプライン名
   GitHubFullRepositoryId:
     Type: String
-    Default: "daichi0812/test-cloudformation"   # リポジトリ名
+    Default: "daichi0812/demo-sam-ci-cd"   # リポジトリ名
   BranchName:
     Type: String
     Default: "main"
